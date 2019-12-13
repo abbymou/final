@@ -47,7 +47,7 @@ function parseData(data){
     html += '<h2 style="color:#4056a1;">' + data[i]["name"] + '</h2>';
     html += '<h5>' + data[i]["company"] + ' | ' + data[i]["email"] + '</h5>';
     html += '<h6> Favorite sport: ' + data[i]["favoriteSport"] + '</h6>';
-    html += '<img src="' + data[i]["picture"] + '" class="display" style="float:left; width:100px; margin-right: 15px;">' + '<p class="display">' + data[i]["about"] + '</p>';
+    html += '<img src="' + data[i]["picture"] + '" class="display" style="width:100px;">' + '<p class="display">' + data[i]["about"] + '</p>';
     html += '<h6> Gender: ' + data[i]["gender"] + '</h6><br>';
 
     if (data[i]["gender"] == "male") { //if the gender item is male, add 1 to the male count; else add 1 to the female count
