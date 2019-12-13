@@ -1,0 +1,67 @@
+/* Bootstrap styles*/
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.navbar {
+  background-color: #4056a1;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+a.nav-link {
+  color: #efe2ba;
+}
+
+.navbar-brand:hover, a.nav-link:hover {
+  color: #d79922;
+}
+
+/* Main styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron {
+  padding-bottom: 1rem;
+}
+
+.display {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Slider styles */
+.slider {
+  width: 100%;
+}
+
+/* Chart styles */
+.stat {
+  margin: auto;
+  width: 100%;
+}

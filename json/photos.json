@@ -1,0 +1,11 @@
+{"photo-gallery": {
+  "title": "Top Photos",
+  "images": {
+    "image": [
+      {"image-path": "https://www.googleapis.com/download/storage/v1/b/teaching-api/o/1.jpg?generation=1576123506832374&alt=media", "caption": "This is the first photo", "credit":"First Photographer Name"},
+      {"image-path": "https://www.googleapis.com/download/storage/v1/b/teaching-api/o/2.jpg?generation=1576123506739684&alt=media", "caption": "This is the second photo", "credit":"Second Photographer Name"},
+      {"image-path": "https://www.googleapis.com/download/storage/v1/b/teaching-api/o/3.jpg?generation=1576123506967471&alt=media", "caption": "This is the third photo", "credit":"Third Photographer Name"}
+
+    ]
+  }
+}}
